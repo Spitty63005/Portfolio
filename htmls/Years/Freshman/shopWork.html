@@ -8,41 +8,58 @@
   <link href="../../../style.css" rel="stylesheet" type="text/css" />
 </head>
 
-<body>
-  <h1>Thomas Manning's porfolio</h1>
-  <div class="dropdown">
-    <span>Freshman Year ▼</span>
-    <div class="dropdown-content">
-    <p><a href="#" id="freshman">Freshman Year</a></p>
-    <p><a href="#" id="sophmore">Sophomore Year</a></p>
-    <p><a href="#" id="junior">Junior Year</a></p>
-    <p><a href="#" id="senior">Senior Year</a></p>
-    </div>
-  </div>
-  <nav>
-      <ul>
-        <li><a href="../../../index.html"><div>Home</div></a></li>
-        <li><a href="../../resume.html"><div>Resume</div></a></li>
-        <li><a href="../../letters.html"><div>Recomendations</div></a></li>
-        <li><a href="../../awards.html"><div>Awards</div></a></li>
-        <li><a href="../Freshman/academicWork.html"><div>Academic Work</div></a></li>
-        <li><div>Shop Work</div></li>
-        <li><a href="../Freshman/relatedWork.html"><div>Related Work</div></a></li>
-        <li><a href="../../career.html"><div>Career Plan</div></a></li>
-      </ul>
-    </nav>
-  <div class="work_container">
-      <!--name of assignment-->
-      <div class="work_name"><h1>Burger Shack Website</h1></div>
-      <!--about assignment-->
-      <div class="work_desc">
-        <h3>about</h3>
-        <p>I made a website to advertise a new and upcoming imaginary business. I made the main page for the website and another page that contains the menu. I used color schemes that I created on adobe color wheel. I used colors with the borders making it to be bars of color with some text in them. On the menu page I did the same thing with the backgrounds making bars but I had the name of the food in a separate bar. With the image of what the food is underneath it. 
-        I learned how to style with color backgrounds to make different sections with color. I also learned about how to use and style images. I learned how to use definition lists. Along with learning on how to format my code and separate it to make it more readable and understandable.
-</p>
+  <body>
+    <header>
+      <h1>Thomas Manning's portfolio</h1>
+      <div class="dropdown">
+        <span>Freshman Year ▼</span>
+        <div class="dropdown-content">
+        <p><a href="#" id="freshman">Freshman Year</a></p>
+        <p><a href="#" id="sophmore">Sophomore Year</a></p>
+        <p><a href="#" id="junior">Junior Year</a></p>
+        <p><a href="#" id="senior">Senior Year</a></p>
+        </div>
       </div>
-      <!--image of assignment-->
-      <iframe class="work_img" src="https://burger-shacktm.thomasmanning1.repl.co/" title="the full product"></iframe>
-    </div>
+    </header>
+
+    <nav>
+        <ul>
+          <li><a href="../../../index.html"><div>Home</div></a></li>
+          <li><a href="../../resume.html"><div>Resume</div></a></li>
+          <li><a href="../../letters.html"><div>Recomendations</div></a></li>
+          <li><a href="../../awards.html"><div>Awards</div></a></li>
+          <li><a href="../Freshman/academicWork.html" id="acaWrk"><div>Academic Work</div></a></li>
+          <li><div id="shopWrk">Shop Work</div></li>
+          <li><a href = "../Freshman/relatedWork.html" id="relWrk"><div>Related Work</div></a></li>
+          <li><a href="../../reflections.html">4 Year Reflection</a></li>
+          <li><a href="../Freshman/ddm.html" id = "ddm"><div>DDM</div></a></li>
+          <li><a href="../../career.html"><div>Career Plan</div></a></li>
+        </ul>
+      </nav>
+    <div class="work_container">
+        <!--name of assignment-->
+        <div class="work_name"><h2>Burger Shack Website</h2></div>
+        <!--about assignment-->
+        <div class="work_desc" id="openBtn"><h4>I made a website to advertise a new and upcoming imaginary business. I made the main page for the website and another page that contains the menu. I used color schemes that I created on adobe color wheel. I used colors with the borders making it to be bars of color with some text in them. On the menu page I did the same thing with the backgrounds making bars but I had the name of the food in a separate bar. With the image of what the food is underneath it. 
+          I learned how to style with color backgrounds to make different sections with color. I also learned about how to use and style images. I learned how to use definition lists. Along with learning on how to format my code and separate it to make it more readable and understandable.
+   
+  </h4></div>
+      <!-- hidden menu with full text -->
+      <div class = "full-text-dimmed" id="fullTextDimmed">
+        <div id="closeBtn">
+          <img src="../../../images/closeBtn.png" class="close-btn" onclick="closeFullText()">
+        </div>
+        <div class = "full-text">
+          <p>
+            I made a website to advertise a new and upcoming imaginary business. I made the main page for the website and another page that contains the menu. I used color schemes that I created on adobe color wheel. I used colors with the borders making it to be bars of color with some text in them. On the menu page I did the same thing with the backgrounds making bars but I had the name of the food in a separate bar. With the image of what the food is underneath it. 
+            I learned how to style with color backgrounds to make different sections with color. I also learned about how to use and style images. I learned how to use definition lists. Along with learning on how to format my code and separate it to make it more readable and understandable.
+</p>
+        </div>
+      </div>
+        <!--image of assignment-->
+        <div class="work_img"><iframe src="../../../FreshmanWork/shop/index.html" alt="image of work" width="100%" height="100%"></iframe></div>
+      </div>
+    <div id="title" style="display: none;">shopWork</div>
+    <script src="../../../script.js"></script>
 </body>
 </html>

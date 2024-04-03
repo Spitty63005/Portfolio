@@ -254,6 +254,6 @@ header > div{
 #notPigLatin{
   display: flex;
 }
-.divs-sucks{
-  display: unset;
+.divs-sucks > div{
+  display: inline-grid;
 }

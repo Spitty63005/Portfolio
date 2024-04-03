@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Common Assesments</title>
+  <link href="../../../style.css" rel="stylesheet" type="text/css" />
+</head>
+
+  <body>
+    <header>
+      <h1>Thomas Manning's portfolio</h1>
+      <div class="dropdown">
+        <span>Senior Year ▼</span>
+        <div class="dropdown-content">
+        <p><a href="#" id="freshman">Freshman Year</a></p>
+        <p><a href="#" id="sophmore">Sophomore Year</a></p>
+        <p><a href="#" id="junior">Junior Year</a></p>
+        <p><a href="#" id="senior">Senior Year</a></p>
+        </div>
+      </div>
+    </header>
+
+    <nav>
+        <ul>
+          <li><a href="../../../index.html"><div>Home</div></a></li>
+          <li><a href="../../resume.html"><div>Resume</div></a></li>
+          <li><a href="../../letters.html"><div>Recomendations</div></a></li>
+          <li><a href="../../awards.html"><div>Awards</div></a></li>
+          <li><a href="../Senior/academicWork.html" id="acaWrk"><div>Academic Work</div></a></li>
+          <li><a href="../Senior/shopWork.html" id="shopWrk"><div>Shop Work</div></a></li>
+          <li><a href="../Senior/relatedWork.html"id="relWrk"><div>Related Work</div></a></li>
+          <li><a href="../../reflections.html">4 Year Reflection</a></li>
+          <li><div id = "ddm">DDM</div></li>
+          <li><a href="../../career.html"><div>Career Plan</div></a></li>
+        </ul>
+      </nav>
+    <div class="work_container">
+        <!--name of assignment-->
+        <div class="work_name"><h2>Monopoly</h2></div>
+        <!--about assignment-->
+        <div class="work_desc" id="openBtn"><h4>The Monopoly DDM will be here upon completion.</h4></div>
+      <!-- hidden menu with full text -->
+      <div class = "full-text-dimmed" id="fullTextDimmed">
+        <div id="closeBtn">
+          <img src="../../../images/closeBtn.png" class="close-btn" onclick="closeFullText()">
+        </div>
+        <div class = "full-text">
+          The Monopoly DDM will be here upon completion.
+        </div>
+      </div>
+        <!--image of assignment-->
+        <div class="work_img"></div>
+      </div>
+    <div id="title" style="display: none;">ddm</div>
+    <script src="../../../script.js"></script>
+</body>
+</html>

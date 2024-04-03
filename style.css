@@ -254,3 +254,6 @@ header > div{
 #notPigLatin{
   display: flex;
 }
+.divs-sucks{
+  display: unset;
+}
